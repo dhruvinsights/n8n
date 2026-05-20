@@ -53,6 +53,7 @@
       "dist/credentials/ChromaSelfHostedApi.credentials.js",
       "dist/credentials/ChromaCloudApi.credentials.js",
       "dist/credentials/CohereApi.credentials.js",
+      "dist/credentials/Db2Api.credentials.js",
       "dist/credentials/DaytonaApi.credentials.js",
       "dist/credentials/DeepSeekApi.credentials.js",
       "dist/credentials/GooglePalmApi.credentials.js",
@@ -200,6 +201,7 @@
       "dist/nodes/vector_store/VectorStoreZepInsert/VectorStoreZepInsert.node.js",
       "dist/nodes/vector_store/VectorStoreZepLoad/VectorStoreZepLoad.node.js",
       "dist/nodes/vector_store/VectorStoreChromaDB/VectorStoreChromaDB.node.js",
+      "dist/nodes/vector_store/VectorStoreDb2/VectorStoreDb2.node.js",
       "dist/nodes/ToolExecutor/ToolExecutor.node.js",
       "dist/nodes/ModelSelector/ModelSelector.node.js",
       "dist/nodes/Guardrails/Guardrails.node.js"
@@ -304,5 +306,8 @@
     "weaviate-client": "3.9.0",
     "zod": "catalog:",
     "zod-to-json-schema": "catalog:"
+  },
+  "optionalDependencies": {
+    "ibm_db": "^3.2.4"
   }
 }

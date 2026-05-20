@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- DB2 Logo - Simplified representation -->
+  <rect width="60" height="60" rx="8" fill="#054ADA"/>
+  <path d="M15 20 H30 Q35 20 35 25 V35 Q35 40 30 40 H15 Z" fill="#FFFFFF"/>
+  <path d="M20 25 H28 Q30 25 30 27 V33 Q30 35 28 35 H20 Z" fill="#054ADA"/>
+  <text x="40" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">2</text>
+</svg>
+
+<!-- Made with Bob -->
