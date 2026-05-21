@@ -60,14 +60,4 @@ export class Db2Api implements ICredentialType {
 		type: 'generic',
 		properties: {},
 	};
-
-	test: ICredentialTestRequest = {
-		request: {
-			baseURL: '={{$credentials.host}}:{{$credentials.port}}',
-			url: '',
-			method: 'GET',
-		},
-	};
 }
-
-// Made with Bob
